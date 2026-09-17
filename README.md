@@ -65,7 +65,7 @@ To run the primary 3-way benchmark ($K = 1,000$ on Forest Covertype):
 python run_covertype_experiment.py
 ```
 
-### Running the Multi-$K$ Scaling Sweep
+### Testing Different Cluster Sizes (K = 500, 1000, 2000)
 To replicate the scaling experiment ($K = 500, 1000, 2000$):
 ```bash
 python run_experiments.py
@@ -77,7 +77,7 @@ python run_experiments.py
 
 ```text
 +-- run_covertype_experiment.py   # Main 3-way benchmark implementation (K = 1000)
-+-- run_experiments.py            # Testing scaling across K = 500, 1000, 2000 (K = 500, 1000, 2000)
++-- run_experiments.py            # Testing scaling across K = 500, 1000, 2000
 +-- requirements.txt              # Minimal dependencies (numpy, scikit-learn)
 +-- .gitignore                    # Python & OS ignore rules
 +-- LICENSE                       # MIT License
@@ -98,3 +98,4 @@ Scikit-Learn's `KMeans` is implemented in pre-compiled Cython/C with OpenMP. Com
 
 ## 6. License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
