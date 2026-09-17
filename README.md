@@ -1,4 +1,4 @@
-# Fast K-Means for Large-Scale Clustering
+﻿# Fast K-Means for Large-Scale Clustering
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -40,7 +40,7 @@ Evaluated on the **US Forest Covertype dataset** ($N = 100,000$ samples, $D = 54
 
 ---
 
-### Scaling Performance as $K$ Increases
+### Scaling Performance as K Increases
 
 | Clusters ($K$) | Groups ($M$) | Standard Lloyd Time | Fast MKM Time | Speedup Factor | Operations Cut |
 | :---: | :---: | :---: | :---: | :---: | :---: |
