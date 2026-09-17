@@ -1,4 +1,4 @@
-﻿# Fast K-Means for Large-Scale Clustering
+# Fast K-Means for Large-Scale Clustering
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -76,12 +76,12 @@ python run_experiments.py
 ## 4. Repository Structure
 
 ```text
-├── run_covertype_experiment.py   # Main 3-way benchmark implementation (K = 1000)
-├── run_experiments.py            # Multi-K scaling sweep (K = 500, 1000, 2000)
-├── requirements.txt              # Minimal dependencies (numpy, scikit-learn)
-├── .gitignore                    # Python & OS ignore rules
-├── LICENSE                       # MIT License
-└── README.md                     # Documentation & results
++-- run_covertype_experiment.py   # Main 3-way benchmark implementation (K = 1000)
++-- run_experiments.py            # Testing scaling across K = 500, 1000, 2000 (K = 500, 1000, 2000)
++-- requirements.txt              # Minimal dependencies (numpy, scikit-learn)
++-- .gitignore                    # Python & OS ignore rules
++-- LICENSE                       # MIT License
++-- README.md                     # Documentation & results
 ```
 
 ---
